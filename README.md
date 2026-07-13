@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/7af6bdc8-c53e-42da-beb3-472ec6d1cc07
 requester: making request: obstacle_direction_interfaces.srv.SetDirection_Request(direction='left')
 
  response:
- obstacle_direction_interfaces.srv.SetDirection_Response(success=True, message='Switched instantly to LEFT direction')
+ obstacle_direction_interfaces.srv.SetDirection_Response(success=True, message='Manual LEFT override held for 2.0s')
  - An invalid direction (e.g. `'up'`) returns `success=False` with a message listing the accepted values.
 
 3. **Simulator (Gazebo/turtlebot3_world):**
