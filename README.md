@@ -37,15 +37,22 @@
 1. **Terminal 1 (`A3_control` node):**
    - On startup, logs `Direction-Aware Controller Started`.
    - Continuously logs LiDAR sector readings each scan cycle, e.g.:
+   - 
 [INFO] [direction_aware_obstacle_avoidance_controller]: F:1.85m | L:2.10m | R:0.95m
  [INFO] [direction_aware_obstacle_avoidance_controller]: ACTION: FORWARD
+
   - When an obstacle is detected within `0.50m` in front, the state switches and logs a warning, e.g.:
+  - 
 [WARN] OBSTACLE: Front 0.42m <= 0.50m, switching to TURN state
  [WARN] ROTATE LEFT until front path is free
+
   - When a manual override service call is received, logs the request and result, e.g.:
+  - 
 [INFO] DIRECTION CHANGE REQUEST: LEFT -> success=True
+
 2. **Terminal 2 (service calls):**
    - Each `ros2 service call` returns a response confirming the override, e.g.:
+     
 requester: making request: obstacle_direction_interfaces.srv.SetDirection_Request(direction='left')
 
  response:
