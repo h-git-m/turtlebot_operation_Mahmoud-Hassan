@@ -1,0 +1,5 @@
+string direction
+---
+bool success
+string message
+
