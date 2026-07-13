@@ -1,8 +1,6 @@
 # turtlebot_operation_Mahmoud-Hassan
 
-
-https://github.com/user-attachments/assets/ba11922e-978e-4856-819b-9de2efcd055f
-
+https://github.com/user-attachments/assets/7af6bdc8-c53e-42da-beb3-472ec6d1cc07
 
 ## 1. Step-by-Step Setup Instructions
 1. Add `obstacle_direction_controller` and `obstacle_direction_interfaces` packages to the `src` folder of your ROS2 workspace.
